@@ -5,7 +5,6 @@ function goBold(event) {
     event.target.style.fontSize = `3rem`;
 }
 
-
 function goBig(event) {
     event.target.innerHTML += ` HOME OF TERRIBLE PUNS!`;
     head.style.fontStyle = `italic`;
@@ -37,3 +36,4 @@ function startChange(){
     setInterval(`changeColor()`, 15*1000)
 }
 window.onload = startChange
+
